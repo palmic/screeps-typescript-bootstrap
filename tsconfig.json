@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"types": [
+			"node",
+			"lodash",
+			"mocha",
+			"sinon",
+			"chai",
+			"chai-things"
+		],
+		"target": "es5",
+		"noResolve": false,
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"module": "system"
+	},
+	"files": ["./node_modules/screeps-typescript-declarations/dist/screeps.d.ts", "./src/main.ts"]
+}
